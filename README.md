@@ -2,8 +2,9 @@
 A netwrork utility to forward and dump tcp port data.
 
 Connection before:
+```
 client ------- server
-
+```
 Connection with tcp_tee:
 ```
 client  --- tcp_tee --- server
