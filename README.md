@@ -45,8 +45,8 @@ cmake ..
 cmake --build . 
 ```
 
-If you face linkage errors then check if conan ABI is c++11
+If you face strange linkage errors then check if conan ABI is c++11
 ```
-$grep compiler.libcxx ~/.conan/profiles/default
-compiler.libcxx=libstdc++*11*
+$ grep compiler.libcxx ~/.conan/profiles/default
+compiler.libcxx=libstdc++11
 ```
