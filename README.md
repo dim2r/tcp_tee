@@ -32,7 +32,7 @@ $cat responce.log                                                               
 
 
 
-# Building
+# Build from source
 
 run build.sh
 or run the following commands:
