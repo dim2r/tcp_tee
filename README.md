@@ -56,3 +56,7 @@ compiler.libcxx=libstdc++11
 Checked on
 - Ubuntu 22, gcc 11.3
 - Windows 10, MSVS 2022
+
+# Licence
+
+You are free to use or modify this code.
