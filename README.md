@@ -13,4 +13,4 @@ client  <--- tcp_tee ---> server
               ./request.log
               ./responce.log
 ```
-Tcp_tee utility listens some tcp port (8080 by default) and forwards all data to some server (127.0.0.1:80 by default). All transferred data being dump into .log files.
+Tcp_tee utility listens on some tcp port (8080 by default) and forwards all data to some server (127.0.0.1:80 by default). Tcp_tee saves all tranmitted data to .log files.
