@@ -34,7 +34,7 @@ $cat responce.log                                                               
 
 # Building
 
-run buils.sh
+run build.sh
 or run the following commands:
 ```
 mkdir build
