@@ -45,14 +45,14 @@ cmake ..
 cmake --build . 
 ```
 
-# Compatibility
-
-Checked on
-Ubuntu 22, gcc 11.3
-Windows 10, MSVS 2022
-
 If you face strange linkage errors then check if conan ABI is c++11
 ```
 $ grep compiler.libcxx ~/.conan/profiles/default
 compiler.libcxx=libstdc++11
 ```
+
+# Compatibility
+
+Checked on
+- Ubuntu 22, gcc 11.3
+- Windows 10, MSVS 2022
