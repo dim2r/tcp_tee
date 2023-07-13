@@ -44,3 +44,9 @@ conan install ..
 cmake .. 
 cmake --build . 
 ```
+
+If you face linkage errors then check if conan ABI is c++11
+```
+$grep compiler.libcxx ~/.conan/profiles/default
+compiler.libcxx=libstdc++*11*
+```
