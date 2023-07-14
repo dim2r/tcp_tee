@@ -24,7 +24,7 @@ tcp_tee [--listen_port 8080] [--forward_address 127.0.0.1] [--forward_port 80] [
 ```
 Usage example:
 
-$tcp_tee --listen_port 8080 --forward_address some-site.com --forward_port 80  &     #run tcp_tee
+$tcp_tee --listen_port 8080 --forward_address some-site.com --forward_port 80  &     #run tcp_tee in background
 $curl http://127.0.0.1:8080/index.html                                               #get http://some-site.com/index.html 
 $cat request.log                                                                     #show request
 $cat responce.log                                                                    #show responce
