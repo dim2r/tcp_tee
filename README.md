@@ -15,7 +15,7 @@ client  <--- tcp_tee ---> server
 ```
 Tcp_tee utility listens on some tcp port (8080 by default) and forwards all data to a server you want (127.0.0.1:80 by default). Tcp_tee saves all transmitted data to .log files.
 
-It is usefull to quickly monitor http traffic or other tcp traffic. It is a simplified tcpdump alternative wich is compatible with most OSes.
+It is usefull to quickly monitor http traffic or other tcp traffic. It is a simplified tcpdump alternative which is compatible with most OSes.
 ```
 Usage:
 tcp_tee [--listen_port 8080] [--forward_address 127.0.0.1] [--forward_port 80] [--request_log_file request.log ] [--responce_log_file responce.log]
